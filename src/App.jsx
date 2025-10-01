@@ -6,10 +6,7 @@ import "./styles/App.css";
 export default function App() {
   const [cards] = useState(cardsData);
   const [currentIndex, setCurrentIndex] = useState(0);
-  // bumpKey changes whenever we go to next card so child resets its flip
   const [bumpKey, setBumpKey] = useState(0);
-
-  // background management (user can paste URL or upload)
   const [bgUrl, setBgUrl] = useState("");
   const [bgFilePreview, setBgFilePreview] = useState(null);
 
@@ -46,7 +43,6 @@ export default function App() {
     setBgUrl("");
   };
 
-  // inline style for container using chosen background
   const backgroundStyle = bgFilePreview
     ? { backgroundImage: `url(${bgFilePreview})` }
     : bgUrl
@@ -73,7 +69,7 @@ export default function App() {
         <main className="main-content">
           <section className="card-area">
             <Flashcard
-              key={current.id} // keep key to help React remount when id changes
+              key={current.id} 
               front={current.front}
               back={current.back}
               resetKey={bumpKey}
@@ -95,6 +91,10 @@ export default function App() {
                 Andrew Carnegie.
               </p>
             </div>
+            <img 
+              src="/men.jpg" 
+              alt="The Men who built America" 
+              className="sidebar-image"/>
           </aside>
         </main>
 

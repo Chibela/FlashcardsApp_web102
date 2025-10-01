@@ -2,10 +2,9 @@
 * { box-sizing: border-box; }
 html, body, #root { height: 100%; margin: 0; font-family: 'Playfair Display', Georgia, serif; }
 
-/* app-root covers the viewport and holds background */
 .app-root {
   min-height: 100vh;
-  background-color: #f3e9db; /* fallback parchment color */
+  background-color: #f3e9db; 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,7 +14,6 @@ html, body, #root { height: 100%; margin: 0; font-family: 'Playfair Display', Ge
   padding: 48px 20px;
 }
 
-/* translucent shell over the background for content readability */
 .app-shell {
   width: 100%;
   max-width: 1100px;
@@ -27,7 +25,6 @@ html, body, #root { height: 100%; margin: 0; font-family: 'Playfair Display', Ge
   flex-direction: column;
 }
 
-/* Header */
 .app-header {
   text-align: left;
   margin-bottom: 18px;
@@ -63,7 +60,6 @@ html, body, #root { height: 100%; margin: 0; font-family: 'Playfair Display', Ge
   padding: 8px 10px;
 }
 
-/* Controls below the card */
 .controls {
   margin-top: 6px;
 }
@@ -93,6 +89,15 @@ html, body, #root { height: 100%; margin: 0; font-family: 'Playfair Display', Ge
   flex-direction: column;
   gap: 14px;
 }
+
+.sidebar-image {
+  margin-top: 5px;
+  width: 90%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
 .panel {
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid rgba(96,77,52,0.08);
@@ -110,28 +115,11 @@ html, body, #root { height: 100%; margin: 0; font-family: 'Playfair Display', Ge
   font-size: 13px;
   color: #6f5a49;
 }
-.input-url {
-  width: 100%;
-  padding: 8px;
-  border-radius: 6px;
-  border: 1px solid #ddd1bf;
-  font-size: 14px;
-  margin-bottom: 8px;
-}
-
 .or {
   text-align: center;
   color: #8b6f50;
   margin: 8px 0;
   font-size: 12px;
-}
-
-
-.preview img {
-  width: 100%;
-  border-radius: 6px;
-  margin-top: 8px;
-  display: block;
 }
 
 @media (max-width: 880px) {
