@@ -42,7 +42,7 @@ The following **required** functionality is completed:
 
 ## 🎥 Video Walkthrough
 
-<img src='https://raw.githubusercontent.com//Chibela/FlashcardsApp_web102/main/public/walkthrough1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://raw.githubusercontent.com//Chibela/FlashcardsApp_web102/main/public/walkthrough2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ScreenToGif
 
