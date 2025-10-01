@@ -1,0 +1,147 @@
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; margin: 0; font-family: 'Playfair Display', Georgia, serif; }
+
+/* app-root covers the viewport and holds background */
+.app-root {
+  min-height: 100vh;
+  background-color: #f3e9db; /* fallback parchment color */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 48px 20px;
+}
+
+/* translucent shell over the background for content readability */
+.app-shell {
+  width: 100%;
+  max-width: 1100px;
+  background: rgba(255,255,255,0.86);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(11,9,6,0.25);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.app-header {
+  text-align: left;
+  margin-bottom: 18px;
+}
+.title {
+  margin: 0;
+  font-size: 28px;
+  color: #2f2212;
+}
+.subtitle {
+  margin: 6px 0 0;
+  font-size: 14px;
+  color: #514136;
+}
+.meta {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #6b5a48;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 20px;
+  align-items: start;
+}
+
+.card-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  padding: 8px 10px;
+}
+
+/* Controls below the card */
+.controls {
+  margin-top: 6px;
+}
+.btn-primary {
+  background: #6b4f2b;
+  border: 0;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(107,79,43,0.25);
+}
+.btn-primary:hover { transform: translateY(-1px); }
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #b89b7a;
+  color: #5a4635;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.panel {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(96,77,52,0.08);
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(98,76,45,0.05);
+}
+.panel h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  color: #3b2a18;
+}
+.panel .note {
+  margin: 0 0 8px;
+  font-size: 13px;
+  color: #6f5a49;
+}
+.input-url {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ddd1bf;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.or {
+  text-align: center;
+  color: #8b6f50;
+  margin: 8px 0;
+  font-size: 12px;
+}
+
+
+.preview img {
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 8px;
+  display: block;
+}
+.app-footer {
+  margin-top: 18px;
+  text-align: right;
+  color: #7a6249;
+  font-size: 12px;
+}
+
+@media (max-width: 880px) {
+  .main-content { grid-template-columns: 1fr; }
+  .sidebar { order: 2; }
+  .card-area { order: 1; }
+}
