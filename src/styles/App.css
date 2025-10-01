@@ -133,12 +133,6 @@ html, body, #root { height: 100%; margin: 0; font-family: 'Playfair Display', Ge
   margin-top: 8px;
   display: block;
 }
-.app-footer {
-  margin-top: 18px;
-  text-align: right;
-  color: #7a6249;
-  font-size: 12px;
-}
 
 @media (max-width: 880px) {
   .main-content { grid-template-columns: 1fr; }

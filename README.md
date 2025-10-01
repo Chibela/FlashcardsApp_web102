@@ -1,16 +1,53 @@
-# React + Vite
+# Web Development Project 2 - _Industrial America Flashcards_
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Submitted by: **Chibela Changwe**
 
-Currently, two official plugins are available:
+This web app is a flashcard learning tool featuring _10 questions and answers about influential figures from America's Industrial Revolution_, such as Rockefeller, Carnegie, Vanderbilt, Ford, and J.P. Morgan.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Time spent: **7** hours spent in total
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✅ Required Features
 
-## Expanding the ESLint configuration
+The following **required** functionality is completed:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [x] **The app displays the title of the card set, a short description, and the total number of cards**
+- [x] Title of card set is displayed
+- [x] A short description of the card set is displayed
+- [x] A list of card pairs is created
+- [x] The total number of cards in the set is displayed
+- [x] Card set is represented as an array of objects containing question/answer pairs
+- [x] **A single card at a time is displayed**
+- [x] Only one half of the information pair is displayed at a time
+- [x] **Clicking on the card flips the card over, showing the corresponding component of the information pair**
+- [x] Clicking on a card flips it over to show the back
+- [x] Clicking again flips it back to the front
+- [x] **Clicking on the next button displays a random new card**
+
+---
+
+## ✨ Optional Features
+
+- [ ] Cards contain images in addition to or in place of text
+- [ ] Cards have different visual styles based on category (e.g. difficulty, subject)
+
+---
+
+## ➕ Additional Features
+
+- [x] Sidebar with “About This Set” section that remains static while cards change
+
+---
+
+## 🎥 Video Walkthrough
+
+<img src='https://raw.githubusercontent.com//Chibela/FlashcardsApp_web102/main/public/walkthrough1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with ScreenToGif
+
+---
+
+## 📄 License
+
+Copyright [2025] [Chibela Changwe]
