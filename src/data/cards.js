@@ -1,6 +1,12 @@
 
 const cards = [
   {
+    id: 0,
+    front:
+      "Start!",
+    back: "Press next to start the flashcards",
+  },
+  {
     id: 1,
     front:
       "Who was the founder of Standard Oil and became the world’s richest man?",
@@ -47,7 +53,7 @@ const cards = [
     id: 8,
     front:
       "What major company did J.P. Morgan purchase from Andrew Carnegie in 1901?",
-    back: "Carnegie Steel — which he turned into U.S. Steel",
+    back: "Carnegie Steel; which he turned into U.S. Steel",
   },
   {
     id: 9,
