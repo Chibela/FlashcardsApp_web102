@@ -4,8 +4,6 @@ Submitted by: **Chibela Changwe**
 
 This web app is a flashcard learning tool featuring _10 questions and answers about influential figures from America's Industrial Revolution_, such as Rockefeller, Carnegie, Vanderbilt, Ford, and J.P. Morgan.
 
-## Time Spent
-
 **Time spent:**
 
 - Project 2: **7** hours spent in total
