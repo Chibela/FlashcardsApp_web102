@@ -4,9 +4,12 @@ Submitted by: **Chibela Changwe**
 
 This web app is a flashcard learning tool featuring _10 questions and answers about influential figures from America's Industrial Revolution_, such as Rockefeller, Carnegie, Vanderbilt, Ford, and J.P. Morgan.
 
-Time spent:
-Project 2: **7** hours spent in total
-Project 3: **4.5** hours spent in total
+## Time Spent
+
+**Time spent:**
+
+- Project 2: **7** hours spent in total
+- Project 3: **4.5** hours spent in total
 
 ---
 
@@ -46,6 +49,7 @@ The following **required** functionality is completed:
   - Clicking on the submit button with a **correct** answer shows visual feedback (green border) that it is correct.
 
 - [x] **The user can navigate through an ordered list of cards**
+
   - A **Next** button displayed on the card navigates to the next card in sequence when clicked.
   - A **Back** button displayed on the card returns to the previous card when clicked.
   - Both buttons have visual feedback (disabled and grayed out) when the user is at the beginning or end of the list.
@@ -67,6 +71,7 @@ The following **required** functionality is completed:
   - Example: “rockefeller” and “John D. Rockefeller” both count as correct.
 
 - [x] **Streak counter**
+
   - A **current streak** increments each time the user guesses correctly.
   - The **longest streak** updates only when the current streak exceeds it.
   - The longest streak updates after a wrong answer is submitted (not mid-round).
